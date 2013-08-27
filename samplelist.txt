@@ -1,0 +1,33 @@
+Linn Kick:c:samples/lm1kick.wav:
+Drumtraks Kick:c:samples/dtkick.wav:
+909 Kick:c:samples/909kick.wav:
+808 Kick:c:samples/808kick.wav:
+Oberheim Kick:c:samples/dmxkick.wav:
+DDM-110 Kick:c:samples/110kick.wav:
+Drumulator Kick:c:samples/emukick.wav:
+Linn Snare:c:samples/lm1snare.wav:
+Drumtraks Snare:c:samples/dtsnare.wav:
+909 Snare:c:samples/909snare.wav:
+808 Snare:c:samples/808snare.wav:
+808 Snare 2:c:samples/808snare2.wav:
+Oberheim Snare:c:samples/dmxsnare.wav:
+DDM-110 Snare:c:samples/110snare.wav:
+Drumulator Snare:c:samples/emusnare.wav:
+SP12 Snare:c:samples/sp12snare.wav:
+909 Rimshot:c:samples/909rimshot.wav:
+808 Rimshot:c:samples/808rimshot.wav:
+Linn Rimshot:c:samples/lm1rimshot.wav:
+808 Cowbell:c:samples/808cowbell.wav:
+808 Cymbal:c:samples/808cymbal.wav:
+808 Conga:c:samples/808highconga.wav:
+808 High Tom:c:samples/808hightom.wav:
+808 Low Tom:c:samples/808lowtom.wav:
+Casio VL1 Kick:c:samples/vl1kick.wav:
+Casio VL1 Hat:c:samples/vl1hat.wav:
+Casio VL1 Snare:c:samples/vl1snare.wav:
+Casio SK1 Kick:c:samples/sk1kick.wav:
+Casio SK1 Snare:c:samples/sk1snare.wav:
+Casio SK1 Open:c:samples/sk1hho.wav:
+Casio SK1 Closed:c:samples/sk1hhc.wav:
+Casio SK1 Hi Tom:c:samples/sk1hightom.wav:
+Fairlight ORCH5:c:samples/orch5.wav:
