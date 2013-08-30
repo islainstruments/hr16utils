@@ -635,7 +635,7 @@ HR16BProject                                                                    
   7A1A                 634     label2821       CODE    7A1Ah
                        635
                        636             ORG     0h
-0000 02018F            637             ljmp    label0
+0000 02018F            637             ljmp    coldstart		; RESET entry point
 0003 2A                638             add     A, R2
                        639     label2814:
 0004 414C              640             ajmp    label1
@@ -861,7 +861,7 @@ HR16BProject                                                                    
 0189 7401              860             mov     A, #1h
 018B F0                861             movx    @DPTR, A
 018C 0207F1            862             ljmp    label12
-018F 75D000            863     label0: mov     PSW, #0h
+018F 75D000            863     coldstart: mov     PSW, #0h
 0192 75812F            864             mov     SP, #2Fh
 0195 758921            865             mov     TMOD, #21h
 0198 758855            866             mov     TCON, #55h
@@ -2543,7 +2543,7 @@ HR16BProject                                                                    
 0E1B DDF7             2542             djnz    R5, label268
 0E1D 80CC             2543             sjmp    label265
                       2544     label263:
-0E1F 02018F           2545             ljmp    label0
+0E1F 02018F           2545             ljmp    coldstart
                       2546     label239:
 0E22 C265             2547             clr     65h
 0E24 8A7A             2548             mov     7Ah, R2
@@ -13368,7 +13368,7 @@ HR16BProject                                                                    
 53DF DAF6            13317             djnz    R2, label2015
 53E1 80E6            13318             sjmp    label2016
                      13319     label2014:
-53E3 02018F          13320             ljmp    label0
+53E3 02018F          13320             ljmp    coldstart
                      13321     label2009:
 53E6 7A04            13322             mov     R2, #4h
 53E8 7800            13323             mov     R0, #0h

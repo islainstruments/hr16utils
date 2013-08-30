@@ -634,7 +634,7 @@ label2819	CODE	7A0Ch
 label2821	CODE	7A1Ah
 
 	ORG	0h
-	ljmp	label0
+	ljmp	label0		; reset entry point
 	add	A, R2
 label2814:
 	ajmp	label1
